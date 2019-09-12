@@ -1,10 +1,10 @@
 /********** BASE STYLES **********/
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #2b2b2b;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #2b2b2b;
 }
 #about, #work, #contact {
-    height: 600px;
+  height: 600px;
 }
 
 
