@@ -1,14 +1,14 @@
-/********** BASE STYLES **********/
+/***** Base Styles *****/ 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #2b2b2b;
-}
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #2b2b2b;
+} 
+
 #about, #work, #contact {
   height: 600px;
-}
+} 
 
-
-/********** GRID **********/
+/***** Grid *****/
 .full-width {
   width: 1200px;
   margin: 0 auto;
@@ -22,8 +22,7 @@ body {
   float: left;
 }
 
-
-/********** ABOUT **********/
+/***** Header *****/
 header {
   height: 800px;
   background: url(../img/hero.png);
@@ -63,8 +62,24 @@ header h2 span {
   color: #2b2b2b;
 }
 
+/***** About *****/
+#about .full-width {
+  padding: 80px 0;
+}
+#about h2 {
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  padding-left: 50px;
+}
+#about p {
+  font-size: 21px;
+  color: #7F7F7F;
+  line-height: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
-/********** WORK **********/
+/***** Work *****/
 #work {
   background-color: #F9CEB7;
   text-align: center;
@@ -88,8 +103,7 @@ header h2 span {
   padding: 0 50px;
 }
 
-
-/********** CONTACT **********/
+/***** Contact *****/
 #contact {
   background-color: #ebebeb;
 }
@@ -139,6 +153,3 @@ header h2 span {
   font-size: 32px;
   padding-right: 48px;
 }
-
-
-
